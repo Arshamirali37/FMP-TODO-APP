@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login| Signup</title>
+    <link rel="shortcut icon" href="images-removebg-preview.png" style="width: 100px;" type="image/x-icon">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div1">
+    <h1>Sign up </h1>
+    <br>
+    <br>
+    <input class="" placeholder="Enter your name" id="name" type="text">
+    <br>
+    <br>
+    <input placeholder="Enter your email" id="email" type="email">
+    <br>
+    <br>
+    <input placeholder="Enter your password " id="password" type="password">
+    <br>
+    <br>
+    <button onclick="signup()">Sign up</button>
+
+</div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+ <div class="div2">
+     <h1>log in</h1>
+    <br>
+    <br>
+
+    <input placeholder="Enter your email" id="Loginemail" type="email">
+    <br>
+    <br>
+    <input placeholder="Enter your password " id="Loginpassword" type="password">
+    <br>
+    <br>
+    <button onclick="Login()">Log in</button> 
+</div>
+
+    <script src="Firebase.js"></script>
+</body>
+
+</html>
